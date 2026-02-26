@@ -83,7 +83,11 @@ Define a infraestrutura completa:
 
 Ficheiro de variables de contorno empregado por Docker Compose para parametrizar a configuración do despregue.
 
-Permite modificar valores sen alterar os ficheiros principais.
+Permite modificar valores sen alterar os ficheiros principais. Hai que crealo manualmente:
+```bash
+OPENSEARCH_INITIAL_ADMIN_PASSWORD=<contrsinal>
+```
+Exemplo: `Opensearch#2026`
 
 ---
 
