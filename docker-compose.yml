@@ -1,0 +1,72 @@
+services:
+  opensearch:
+    image: opensearchproject/opensearch:2
+    container_name: opensearch
+    environment:
+      - cluster.name=opensearch-cluster
+      - node.name=opensearch-node
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - OPENSEARCH_JAVA_OPTS=-Xms1g -Xmx1g
+      - OPENSEARCH_INITIAL_ADMIN_PASSWORD=${OPENSEARCH_INITIAL_ADMIN_PASSWORD}
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - opensearch-data:/usr/share/opensearch/data
+    ports:
+      - "9200:9200"
+      - "9600:9600"
+    networks:
+      - opensearch-net
+
+  opensearch-dashboards:
+    image: opensearchproject/opensearch-dashboards:2
+    container_name: opensearch-dashboards
+    ports:
+      - "5601:5601"
+    environment:
+      - OPENSEARCH_HOSTS=["https://opensearch:9200"]
+    depends_on:
+      - opensearch
+    networks:
+      - opensearch-net
+
+  data-prepper:
+    image: opensearchproject/data-prepper:2
+    container_name: data-prepper
+    depends_on:
+      - opensearch
+    ports:
+      - "2021:2021"
+      - "4900:4900"
+    volumes:
+      - ./pipelines:/usr/share/data-prepper/pipelines
+      - ./data-prepper-config.yaml:/usr/share/data-prepper/config/data-prepper-config.yaml
+    networks:
+      - opensearch-net
+
+  producer:
+    image: python:3.11-slim
+    container_name: producer
+    depends_on:
+      - data-prepper
+    working_dir: /app
+    volumes:
+      - ./producers:/app
+      - producer-pip:/pip
+    environment:
+      - PIP_CACHE_DIR=/pip/cache
+      - PYTHONPATH=/pip/site-packages
+    command: >
+      sh -c "pip install --no-cache-dir --target=/pip/site-packages -r /app/requirements.txt &&
+             sleep infinity"
+    networks:
+      - opensearch-net
+
+volumes:
+  opensearch-data:
+  producer-pip:
+networks:
+  opensearch-net:

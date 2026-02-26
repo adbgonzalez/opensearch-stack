@@ -1,0 +1,13 @@
+logs-to-opensearch:
+  source:
+    http:
+      path: "/events/logs"
+      port: 2022
+
+  sink:
+    - opensearch:
+        hosts: [ "https://opensearch:9200" ]
+        insecure: true
+        username: "admin"
+        password: "Opensearch#2025"
+        index: "logs_http"

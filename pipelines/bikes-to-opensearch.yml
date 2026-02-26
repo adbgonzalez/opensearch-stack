@@ -1,0 +1,13 @@
+bikes-to-opensearch:
+  source:
+    http:
+      path: "/events/bikes"
+      port: 2021
+
+  sink:
+    - opensearch:
+        hosts: [ "https://opensearch:9200" ]
+        insecure: true
+        username: "admin"
+        password: "Opensearch#2025"
+        index: "citybikes_http"
