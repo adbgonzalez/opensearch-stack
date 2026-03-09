@@ -48,20 +48,15 @@ services:
       - opensearch-net
 
   producer:
-    image: python:3.11-slim
+    build: ./producers
+    image: opensearch-producer:1.0
     container_name: producer
     depends_on:
       - data-prepper
     working_dir: /app
     volumes:
       - ./producers:/app
-      - producer-pip:/pip
-    environment:
-      - PIP_CACHE_DIR=/pip/cache
-      - PYTHONPATH=/pip/site-packages
-    command: >
-      sh -c "pip install --no-cache-dir --target=/pip/site-packages -r /app/requirements.txt &&
-             sleep infinity"
+    command: ["sleep","infinity"]
     networks:
       - opensearch-net
 

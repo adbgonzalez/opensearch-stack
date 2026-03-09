@@ -1,0 +1,13 @@
+access-http-pipeline:
+  source:
+    http:
+      path: "/events/access"
+      port: 2023
+
+  sink:
+    - opensearch:
+        hosts: ["https://opensearch:9200"]
+        username: "admin"
+        password: "Opensearch#2025"
+        index: "access_http"
+        insecure: true
