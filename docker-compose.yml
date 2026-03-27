@@ -44,6 +44,7 @@ services:
     volumes:
       - ./pipelines:/usr/share/data-prepper/pipelines
       - ./data-prepper-config.yaml:/usr/share/data-prepper/config/data-prepper-config.yaml
+      - shared-logs:/shared
     networks:
       - opensearch-net
 
@@ -56,6 +57,7 @@ services:
     working_dir: /app
     volumes:
       - ./producers:/app
+      - shared-logs:/shared
     command: ["sleep","infinity"]
     networks:
       - opensearch-net
@@ -63,5 +65,7 @@ services:
 volumes:
   opensearch-data:
   producer-pip:
+  shared-logs:
+
 networks:
   opensearch-net:

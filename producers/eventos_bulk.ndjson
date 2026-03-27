@@ -1,0 +1,200 @@
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.1.10", "latency_ms": 80, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-01-001", "servizo": "auth", "status": 200, "timestamp": "2026-03-10T08:00:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.1.11", "latency_ms": 181, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-01-002", "servizo": "auth", "status": 403, "timestamp": "2026-03-10T09:15:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.1.12", "latency_ms": 402, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-01-003", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-10T10:30:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.1.13", "latency_ms": 83, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-01-004", "servizo": "clientes", "status": 200, "timestamp": "2026-03-10T11:45:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.1.14", "latency_ms": 184, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-01-005", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-10T13:00:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.1.15", "latency_ms": 405, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-01-006", "servizo": "inventario", "status": 504, "timestamp": "2026-03-10T14:15:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.1.16", "latency_ms": 86, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-01-007", "servizo": "auth", "status": 200, "timestamp": "2026-03-10T15:30:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.1.17", "latency_ms": 187, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-01-008", "servizo": "auth", "status": 403, "timestamp": "2026-03-10T16:45:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.1.18", "latency_ms": 408, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-01-009", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-10T18:00:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.1.19", "latency_ms": 89, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-01-010", "servizo": "clientes", "status": 200, "timestamp": "2026-03-10T19:15:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.2.10", "latency_ms": 190, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-02-001", "servizo": "auth", "status": 403, "timestamp": "2026-03-11T08:00:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.2.11", "latency_ms": 411, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-02-002", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-11T09:15:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.2.12", "latency_ms": 92, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-02-003", "servizo": "clientes", "status": 200, "timestamp": "2026-03-11T10:30:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.2.13", "latency_ms": 193, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-02-004", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-11T11:45:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.2.14", "latency_ms": 414, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-02-005", "servizo": "inventario", "status": 504, "timestamp": "2026-03-11T13:00:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.2.15", "latency_ms": 95, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-02-006", "servizo": "auth", "status": 200, "timestamp": "2026-03-11T14:15:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.2.16", "latency_ms": 196, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-02-007", "servizo": "auth", "status": 403, "timestamp": "2026-03-11T15:30:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.2.17", "latency_ms": 417, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-02-008", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-11T16:45:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.2.18", "latency_ms": 98, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-02-009", "servizo": "clientes", "status": 200, "timestamp": "2026-03-11T18:00:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.2.19", "latency_ms": 199, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-02-010", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-11T19:15:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.3.10", "latency_ms": 420, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-03-001", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-12T08:00:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.3.11", "latency_ms": 101, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-03-002", "servizo": "clientes", "status": 200, "timestamp": "2026-03-12T09:15:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.3.12", "latency_ms": 202, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-03-003", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-12T10:30:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.3.13", "latency_ms": 423, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-03-004", "servizo": "inventario", "status": 504, "timestamp": "2026-03-12T11:45:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.3.14", "latency_ms": 104, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-03-005", "servizo": "auth", "status": 200, "timestamp": "2026-03-12T13:00:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.3.15", "latency_ms": 205, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-03-006", "servizo": "auth", "status": 403, "timestamp": "2026-03-12T14:15:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.3.16", "latency_ms": 426, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-03-007", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-12T15:30:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.3.17", "latency_ms": 107, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-03-008", "servizo": "clientes", "status": 200, "timestamp": "2026-03-12T16:45:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.3.18", "latency_ms": 208, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-03-009", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-12T18:00:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.3.19", "latency_ms": 429, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-03-010", "servizo": "inventario", "status": 504, "timestamp": "2026-03-12T19:15:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.4.10", "latency_ms": 110, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-04-001", "servizo": "clientes", "status": 200, "timestamp": "2026-03-13T08:00:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.4.11", "latency_ms": 211, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-04-002", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-13T09:15:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.4.12", "latency_ms": 432, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-04-003", "servizo": "inventario", "status": 504, "timestamp": "2026-03-13T10:30:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.4.13", "latency_ms": 113, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-04-004", "servizo": "auth", "status": 200, "timestamp": "2026-03-13T11:45:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.4.14", "latency_ms": 214, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-04-005", "servizo": "auth", "status": 403, "timestamp": "2026-03-13T13:00:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.4.15", "latency_ms": 435, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-04-006", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-13T14:15:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.4.16", "latency_ms": 116, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-04-007", "servizo": "clientes", "status": 200, "timestamp": "2026-03-13T15:30:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.4.17", "latency_ms": 217, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-04-008", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-13T16:45:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.4.18", "latency_ms": 438, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-04-009", "servizo": "inventario", "status": 504, "timestamp": "2026-03-13T18:00:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.4.19", "latency_ms": 119, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-04-010", "servizo": "auth", "status": 200, "timestamp": "2026-03-13T19:15:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.5.10", "latency_ms": 220, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-05-001", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-14T08:00:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.5.11", "latency_ms": 441, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-05-002", "servizo": "inventario", "status": 504, "timestamp": "2026-03-14T09:15:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.5.12", "latency_ms": 122, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-05-003", "servizo": "auth", "status": 200, "timestamp": "2026-03-14T10:30:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.5.13", "latency_ms": 223, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-05-004", "servizo": "auth", "status": 403, "timestamp": "2026-03-14T11:45:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.5.14", "latency_ms": 444, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-05-005", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-14T13:00:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.5.15", "latency_ms": 125, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-05-006", "servizo": "clientes", "status": 200, "timestamp": "2026-03-14T14:15:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.5.16", "latency_ms": 226, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-05-007", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-14T15:30:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.5.17", "latency_ms": 447, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-05-008", "servizo": "inventario", "status": 504, "timestamp": "2026-03-14T16:45:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.5.18", "latency_ms": 128, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-05-009", "servizo": "auth", "status": 200, "timestamp": "2026-03-14T18:00:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.5.19", "latency_ms": 229, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-05-010", "servizo": "auth", "status": 403, "timestamp": "2026-03-14T19:15:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.6.10", "latency_ms": 450, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-06-001", "servizo": "inventario", "status": 504, "timestamp": "2026-03-15T08:00:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.6.11", "latency_ms": 131, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-06-002", "servizo": "auth", "status": 200, "timestamp": "2026-03-15T09:15:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.6.12", "latency_ms": 232, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-06-003", "servizo": "auth", "status": 403, "timestamp": "2026-03-15T10:30:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.6.13", "latency_ms": 453, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-06-004", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-15T11:45:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.6.14", "latency_ms": 134, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-06-005", "servizo": "clientes", "status": 200, "timestamp": "2026-03-15T13:00:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.6.15", "latency_ms": 235, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-06-006", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-15T14:15:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.6.16", "latency_ms": 456, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-06-007", "servizo": "inventario", "status": 504, "timestamp": "2026-03-15T15:30:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.6.17", "latency_ms": 137, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-06-008", "servizo": "auth", "status": 200, "timestamp": "2026-03-15T16:45:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.6.18", "latency_ms": 238, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-06-009", "servizo": "auth", "status": 403, "timestamp": "2026-03-15T18:00:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.6.19", "latency_ms": 459, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-06-010", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-15T19:15:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.7.10", "latency_ms": 140, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-07-001", "servizo": "auth", "status": 200, "timestamp": "2026-03-16T08:00:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.7.11", "latency_ms": 241, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-07-002", "servizo": "auth", "status": 403, "timestamp": "2026-03-16T09:15:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.7.12", "latency_ms": 462, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-07-003", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-16T10:30:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.7.13", "latency_ms": 143, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-07-004", "servizo": "clientes", "status": 200, "timestamp": "2026-03-16T11:45:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.7.14", "latency_ms": 244, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-07-005", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-16T13:00:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.7.15", "latency_ms": 465, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-07-006", "servizo": "inventario", "status": 504, "timestamp": "2026-03-16T14:15:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.7.16", "latency_ms": 146, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-07-007", "servizo": "auth", "status": 200, "timestamp": "2026-03-16T15:30:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.7.17", "latency_ms": 247, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-07-008", "servizo": "auth", "status": 403, "timestamp": "2026-03-16T16:45:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.7.18", "latency_ms": 468, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-07-009", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-16T18:00:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.7.19", "latency_ms": 149, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-07-010", "servizo": "clientes", "status": 200, "timestamp": "2026-03-16T19:15:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.8.10", "latency_ms": 250, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-08-001", "servizo": "auth", "status": 403, "timestamp": "2026-03-17T08:00:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.8.11", "latency_ms": 471, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-08-002", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-17T09:15:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.8.12", "latency_ms": 82, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-08-003", "servizo": "clientes", "status": 200, "timestamp": "2026-03-17T10:30:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.8.13", "latency_ms": 253, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-08-004", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-17T11:45:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.8.14", "latency_ms": 474, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-08-005", "servizo": "inventario", "status": 504, "timestamp": "2026-03-17T13:00:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.8.15", "latency_ms": 85, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-08-006", "servizo": "auth", "status": 200, "timestamp": "2026-03-17T14:15:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.8.16", "latency_ms": 256, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-08-007", "servizo": "auth", "status": 403, "timestamp": "2026-03-17T15:30:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.8.17", "latency_ms": 477, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-08-008", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-17T16:45:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.8.18", "latency_ms": 88, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-08-009", "servizo": "clientes", "status": 200, "timestamp": "2026-03-17T18:00:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.8.19", "latency_ms": 259, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-08-010", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-17T19:15:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.9.10", "latency_ms": 480, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-09-001", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-18T08:00:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.9.11", "latency_ms": 91, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-09-002", "servizo": "clientes", "status": 200, "timestamp": "2026-03-18T09:15:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.9.12", "latency_ms": 262, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-09-003", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-18T10:30:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.9.13", "latency_ms": 483, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-09-004", "servizo": "inventario", "status": 504, "timestamp": "2026-03-18T11:45:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.9.14", "latency_ms": 94, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-09-005", "servizo": "auth", "status": 200, "timestamp": "2026-03-18T13:00:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.9.15", "latency_ms": 265, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-09-006", "servizo": "auth", "status": 403, "timestamp": "2026-03-18T14:15:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.9.16", "latency_ms": 486, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-09-007", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-18T15:30:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.9.17", "latency_ms": 97, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-09-008", "servizo": "clientes", "status": 200, "timestamp": "2026-03-18T16:45:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.9.18", "latency_ms": 268, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-09-009", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-18T18:00:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.9.19", "latency_ms": 489, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-09-010", "servizo": "inventario", "status": 504, "timestamp": "2026-03-18T19:15:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.10.10", "latency_ms": 100, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-10-001", "servizo": "clientes", "status": 200, "timestamp": "2026-03-19T08:00:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.10.11", "latency_ms": 271, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-10-002", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-19T09:15:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.10.12", "latency_ms": 492, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-10-003", "servizo": "inventario", "status": 504, "timestamp": "2026-03-19T10:30:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.10.13", "latency_ms": 103, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-10-004", "servizo": "auth", "status": 200, "timestamp": "2026-03-19T11:45:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/logout", "ip": "192.168.10.14", "latency_ms": 274, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-10-005", "servizo": "auth", "status": 403, "timestamp": "2026-03-19T13:00:00", "usuario": "xoan"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/pedidos", "ip": "192.168.10.15", "latency_ms": 495, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-10-006", "servizo": "pedidos", "status": 504, "timestamp": "2026-03-19T14:15:00", "usuario": "nerea"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/clientes", "ip": "192.168.10.16", "latency_ms": 106, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-10-007", "servizo": "clientes", "status": 200, "timestamp": "2026-03-19T15:30:00", "usuario": "ana"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/facturas", "ip": "192.168.10.17", "latency_ms": 277, "mensaxe": "Incidencia leve detectada", "nivel": "WARN", "request_id": "req-10-008", "servizo": "facturacion", "status": 403, "timestamp": "2026-03-19T16:45:00", "usuario": "luis"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/api/stock", "ip": "192.168.10.18", "latency_ms": 498, "mensaxe": "Erro no servizo", "nivel": "ERROR", "request_id": "req-10-009", "servizo": "inventario", "status": 504, "timestamp": "2026-03-19T18:00:00", "usuario": "marta"}
+{"index": {"_index": "eventos"}}
+{"endpoint": "/login", "ip": "192.168.10.19", "latency_ms": 109, "mensaxe": "Petición procesada correctamente", "nivel": "INFO", "request_id": "req-10-010", "servizo": "auth", "status": 200, "timestamp": "2026-03-19T19:15:00", "usuario": "xoan"}
